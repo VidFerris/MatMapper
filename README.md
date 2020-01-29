@@ -11,7 +11,7 @@ This is a GUI for interacting with the Mapper algorithm. It is best illustrated 
 This is the base function being called by the GUI, which may be useful for other applications where a full interface is not required. This takes input data, handles to a lens and clustering function, the number of buckets along each dimension of the lens to use, and the amount of overlap between lens buckets. It returns a MATLAB Graph object (https://au.mathworks.com/help/matlab/ref/graph.html) which is the output of the Mapper algorithm.
 
 # Acknowledgements
-This research was supported by an Asian Office of Aerospace Research and Development grant (FA2386-17-1-4007).
+This research was supported by the Asian Office of Aerospace Research and Development (grant FA2386-17-1-4007 and AOARD Grant 17IOA006), Defence Science and Technology Group, and the ARC Centre of Excellence for the Dynamics of Language (CE140100041).
 
 # Citation
 Software architecture paper in progress to be published on arXiv. In the interim, please cite as:
