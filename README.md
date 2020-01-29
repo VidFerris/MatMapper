@@ -1,7 +1,7 @@
 # MatMapper
 A MATLAB-based function and GUI implementing the Mapper algorithm for use in Topological Data Analysis, or TDA. The GUI allows for interactive investigation of how the Mapper algorithm works, and can help to build an intuivite understanding of what it does. It can also be useful for analysing and visualising the result of running Mapper on smaller datasets. Larger datasets ("big data") or more complex analyses will likely need a more advanced tool, or at the very least a computer with a lot of RAM for MATLAB to store all the data in.
 
-# MatMapperGuide.m
+# MatMapperGUIDE.m
 This is a GUI for interacting with the Mapper algorithm. It is best illustrated by watching the video below.
 
 # Video Demonstrating the GUI
