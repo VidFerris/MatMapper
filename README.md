@@ -1,2 +1,18 @@
 # MatMapper
-A MATLAB-based function and GUI for implementing the Mapper algorithm for use in Topological Data Analysis.
+A MATLAB-based function and GUI implementing the Mapper algorithm for use in Topological Data Analysis, or TDA. The GUI allows for interactive investigation of how the Mapper algorithm works, and can help to build an intuivite understanding of what it does. It can also be useful for analysing and visualising the result of running Mapper on smaller datasets. Larger datasets ("big data") or more complex analyses will likely need a more advanced tool, or at the very least a computer with a lot of RAM for MATLAB to store all the data in.
+
+# MatMapperGuide.m
+This is a GUI for interacting with the Mapper algorithm. It is best illustrated by watching the video below.
+
+# Video Demonstrating the GUI
+[![](http://img.youtube.com/vi/J0CJyZ4QTdo/0.jpg)](http://www.youtube.com/watch?v=J0CJyZ4QTdo "")
+
+# mapper.m
+This is the base function being called by the GUI, which may be useful for other applications where a full interface is not required. This takes input data, handles to a lens and clustering function, the number of buckets along each dimension of the lens to use, and the amount of overlap between lens buckets. It returns a MATLAB Graph object (https://au.mathworks.com/help/matlab/ref/graph.html) which is the output of the Mapper algorithm.
+
+# Acknowledgements
+This research was supported by an Asian Office of Aerospace Research and Development grant (FA2386-17-1-4007).
+
+# Citation
+Software architecture paper in progress to be published on arXiv. In the interim, please cite as:
+> D. Ferris, MatMapper, (2020), GitHub repository, https://github.com/VidFerris/MatMapper
